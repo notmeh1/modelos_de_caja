@@ -47,17 +47,18 @@ html, body {
   height: 175px;
   border: 1px solid #808080;
 }
-.uae__row_1 {
+.uae__row_2 {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  position: absolute;
+  flex-direction: row;
+  align-self: flex-start;
 }
 .uae__red {
-  width: 20px;
-  height: 100%;
-  background-color: purple;
+  width: 50px;
+  height: 175px;
+  background-color: red;
 }
-.uae__row_2 {
+.uae__row {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -76,6 +77,22 @@ html, body {
   width: 80%;
   height: 58.3px;
   background-color: black;
+}
+
+.japan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 175px;
+  background-color: #ffffff;
+  border: 1px solid #808080;
+}
+.japan__red {
+  width: 80px;
+  height: 85px;
+  border-radius: 40px;
+  background-color: red;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
