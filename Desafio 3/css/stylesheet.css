@@ -19,27 +19,28 @@ html, body {
 }
 
 .denmark {
-  display: flex;
-  align-content: center;
   width: 250px;
   height: 175px;
   background-color: #ff0000;
   border: 1px solid #808080;
 }
-.denmark__col_1-white_y {
-  width: 10px;
-  height: 100%;
-  background-color: yellow;
+.denmark__flex {
+  display: flex;
+  flex-direction: row;
 }
-.denmark__col_2-white_x {
-  width: 100%;
-  height: 10px;
-  background-color: green;
+.denmark__white-y {
+  position: absolute;
+  left: 5em;
+  width: 17px;
+  height: 175px;
+  background-color: #ffffff;
 }
-.denmark__col_3-white_x {
-  width: 100%;
-  height: 10px;
-  background-color: blue;
+.denmark__white-x {
+  position: relative;
+  top: 5em;
+  width: 250px;
+  height: 20px;
+  background-color: #ffffff;
 }
 
 .uae {
